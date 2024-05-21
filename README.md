@@ -1,12 +1,12 @@
 # Elerium v2 Example, Supports PC and Mobile!
 
-Please Copy and paste Library code into ur executor or text editor, Do not use Library code as loadstring as it may not work.
+Electrum(imgui)
 
 Create Window Here:
 ```lua
 local window = library:AddWindow("Name GUI", {
 	main_color = Color3.fromRGB(41, 74, 122), -- Color
-	min_size = Vector2.new(250, 346), -- Size of the gui
+	min_size = Vector2.new(250, 346), -- x and y of ui
 	can_resize = false, -- true or false
 })
 ```
@@ -86,5 +86,8 @@ local folder2 = folder:AddFolder()
 folder2:AddLabel("I'm inside *two* folders :smirk:")
 ```
 
-Credit to Singularity#5490 for creating the lib
-Soon adding more features to readme by myself.
+Loadstring:
+```lua
+--Loastring
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/obeseinsect/roblox/main/Ui%20Libraries/Elerium.lua'))()
+```
