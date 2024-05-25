@@ -2,6 +2,12 @@
 
 Electrum(imgui)
 
+Loadstring:
+```lua
+--Loastring
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/obeseinsect/roblox/main/Ui%20Libraries/Elerium.lua'))()
+```
+
 Create Window Here:
 ```lua
 local window = library:AddWindow("Name GUI", {
